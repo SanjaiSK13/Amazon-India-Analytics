@@ -43,14 +43,6 @@ This project builds a **comprehensive e-commerce analytics platform** that demon
 
 ---
 
-## 🌐 Live Demo
-
-> **[Click here to view the live dashboard →](https://your-app-name.streamlit.app)**
->
-> *(Replace with your Streamlit Cloud URL after deployment)*
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -174,7 +166,7 @@ Revenue trends, seasonal heatmaps, RFM segmentation, payment evolution, category
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/amazon-india-analytics.git
+git clone https://github.com/SanjaiSK13/amazon-india-analytics.git
 cd amazon-india-analytics
 ```
 
