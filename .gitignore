@@ -1,0 +1,76 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ─── Virtual Environments ─────────────────────────────────────────────────────
+venv/
+env/
+ENV/
+.venv/
+.env/
+virtualenv/
+
+# ─── Data Files (large — do not commit to Git) ────────────────────────────────
+data/raw/*.csv
+data/cleaned/*.csv
+data/db/*.db
+
+# Keep folder structure but not the data files
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+!data/db/.gitkeep
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+cleaning_pipeline.log
+database_setup.log
+
+# ─── Streamlit ────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ─── Jupyter / IPython ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── OS Files ─────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ─── Reports (optional — comment out if you want to commit charts) ────────────
+# reports/eda_charts/*.png
+# reports/*.html
+
+# ─── Temp files ───────────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.swp
+*.swo
+~$*
